@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Chatterbot</title>
+</head>
+<body>
+    <h1>Hi, I'm Chatterbot!</h1> <br>
+    <b>{{ reply }}</b> <br> <br>
+    <form action="/get-reply" method="POST">
+        <input name="message" type="text" placeholder="Type a message..."> <br> <br>
+        <button type="submit">SEND</button>
+    </form>
+</body>
+</html>
